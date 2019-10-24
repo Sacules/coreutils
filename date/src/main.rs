@@ -43,7 +43,6 @@ fn date<'a>(args: &ArgMatches) -> Result<(), &'a str> {
         if !is_convert {
             // TODO this should usually set OS' datetime if -j is not given
             unimplemented!();
-            return Ok(());
         }
     }
 
@@ -60,7 +59,6 @@ fn date<'a>(args: &ArgMatches) -> Result<(), &'a str> {
         if !is_convert {
             // TODO this should usually set OS' datetime if -j is not given
             unimplemented!();
-            return Ok(());
         }
     }
 
